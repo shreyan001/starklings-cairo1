@@ -18,7 +18,7 @@ impl MessagePrintImpl of PrintTrait<Message> {
     fn print(self: Message) {
         match self {
             Message::Quit => println!("Quit"),
-            Message::Echo => println!("Echo"),
+            Message::Echo => println!("echo"),
             Message::Move => println!("Move"),
             Message::ChangeColor => println!("ChangeColor")
         }
